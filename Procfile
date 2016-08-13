@@ -1,2 +1,1 @@
-web: node consumerApnsNotification.js
-worker: node consumerApnsNotification.js
+worker: node consumerNotification.js

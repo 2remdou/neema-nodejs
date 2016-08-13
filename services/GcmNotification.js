@@ -21,7 +21,7 @@ var GcmNotification = {
         });
 
 
-        apnsConnection.pushNotification(this.notification,message.device);
+        apnsConnection.pushNotification(this.notification,message.token);
     }
 }
 

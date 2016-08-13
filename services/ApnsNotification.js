@@ -48,7 +48,7 @@ var   ApnsNotification = {
     push : (message) =>{
         notification.alert = message.content;
 
-        apnsConnection.pushNotification(notification,message.device);
+        apnsConnection.pushNotification(notification,message.token);
     },
 
 }

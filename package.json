@@ -4,8 +4,8 @@
   "description": "Serveur node de neema",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    // "start": "nodemon server.js"
   },
   "author": "Mamadou Toure",
   "license": "MIT",

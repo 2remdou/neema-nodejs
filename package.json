@@ -1,0 +1,20 @@
+{
+  "name": "neema-nodejs",
+  "version": "1.0.0",
+  "description": "Serveur node de neema",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Mamadou Toure",
+  "license": "MIT",
+  "dependencies": {
+    "JSONStream": "^1.1.4",
+    "amqplib": "^0.4.2",
+    "apn": "^1.7.8",
+    "express": "^4.14.0",
+    "node-gcm": "^0.14.4",
+    "nodemon": "^1.10.0"
+  }
+}

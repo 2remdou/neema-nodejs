@@ -3,8 +3,7 @@
 const amqp = require('amqplib/callback_api');
 const apn = require('apn');
 
-// amqp.connect('amqp://guest:guest@localhost:5672',(err,conn)=>{
-amqp.connect('amqp://zbtomucq:OXknMfWzifpEGpV-wW1vNuqYsCWG8Tgz@reindeer.rmq.cloudamqp.com/zbtomucq',(err,conn)=>{
+amqp.connect(process.env.RABBITURL,(err,conn)=>{
     conn.createChannel((err,ch)=>{
         let exchange = 'notification';
         ch.assertExchange(exchange,'direct',{durable:true});

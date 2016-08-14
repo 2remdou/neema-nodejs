@@ -1,6 +1,8 @@
 'use strict';
 
 const apn = require('apn');
+const logger = require('logfmt');
+
 
 var notification = new apn.Notification();
 let options = {

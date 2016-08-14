@@ -19,9 +19,6 @@ var GcmNotification = {
             if(err) throw err;
             else 	console.log(response);
         });
-
-
-        apnsConnection.pushNotification(this.notification,message.token);
     }
 }
 

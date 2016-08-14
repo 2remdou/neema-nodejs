@@ -1,2 +1,2 @@
 web: node server.js
-web: node consumerNotification.js
+worker: node consumerNotification.js

@@ -15,7 +15,7 @@ var GcmNotification = {
 
         messageGcm.addNotification('body', message.content);
 
-        sender.send(messageGcm, { registrationTokens: message.token },(err, response)=>{
+        sender.send(messageGcm, { registrationTokens: [message.token] },(err, response)=>{
             if(err) throw err;
             else 	console.log(response);
         });

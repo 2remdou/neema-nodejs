@@ -1,1 +1,2 @@
-web: nodemon consumerNotification.js
+web: node server.js
+web: node consumerNotification.js
